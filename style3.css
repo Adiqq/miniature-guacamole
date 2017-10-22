@@ -6,8 +6,12 @@ html,body{
 }
 body {
     margin: 0;
-    background: url("seigaiha.png") repeat;
+    background: #2A3132;
     font-family: 'Roboto Mono', monospace;
+}
+.background{
+    background: url("seigaiha.png") repeat;
+    background-color: white;
 }
 .logo{
     background: #2A3132;
@@ -63,11 +67,19 @@ nav ul li.active{
     width:25%;
     background: #2A3132;
 }
-.fill{
-    height:100%;
-}
 .right{
     width:75%;
+}
+
+.row{
+    height: auto;
+    overflow: hidden;
+}
+
+.fill{
+    overflow: hidden;
+    margin-bottom: -1000px;
+    padding-bottom: 1000px;
 }
 
 /* Clear floats after the columns */
@@ -95,4 +107,12 @@ article header h2{
 }
 article p{
     color: #2A3132;
+}
+footer{
+    text-align: center;
+}
+.footer-background{
+    background-color: #2A3132;
+    color: #eeeff0;
+    height:100%;
 }
