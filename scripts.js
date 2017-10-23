@@ -22,9 +22,9 @@ window.onload = function () {
 }
 
 function showActivePage(name){
-    var sections = document.querySelectorAll('section');
+    var sections = document.querySelectorAll('div.content');
     for(var i = 0; i < sections.length; i++){
-        if(sections[i].className === name){
+        if(sections[i].className.indexOf(name) !== -1){
             sections[i].style.display = 'block';
         } else{
             sections[i].style.display = 'none';

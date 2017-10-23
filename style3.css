@@ -10,14 +10,13 @@ body {
     font-family: 'Roboto Mono', monospace;
 }
 .background{
-    background: url("seigaiha.png") repeat;
-    background-color: white;
+    background: white url("seigaiha.png") repeat;
 }
 .logo{
     background: #2A3132;
     border-bottom: 1px solid #336B87;
 }
-.logo header{
+.logo > header{
     font-family: 'Rubik', sans-serif;
     padding: 0 20px;
     text-align: center;
@@ -111,7 +110,7 @@ article p{
 footer{
     text-align: center;
 }
-.footer-background{
+#footer-background{
     background-color: #2A3132;
     color: #eeeff0;
     height:100%;
@@ -144,7 +143,7 @@ main {
     margin-bottom: 20px;
 }
 
-main section {
+main div.content {
     padding: 20px 20px;
     margin: 0px 40px 20px 40px;
 }
@@ -189,12 +188,12 @@ main section {
     color: #eeeff0;
 }
 
-.footer-background a{
+#footer-background a{
     color: #eeeff0;
 }
-.footer-background a:visited{
+#footer-background a:visited{
     color: #90AFC5;
 }
-.footer-background a:hover{
+#footer-background a:hover{
     color: #336B87;
 }
