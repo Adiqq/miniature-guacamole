@@ -116,3 +116,85 @@ footer{
     color: #eeeff0;
     height:100%;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr {
+    background-color: #336B87;
+    border-bottom: 1px solid #90AFC5;
+}
+th {
+    background-color: #763626;
+    color: #eeeff0;
+}
+td {
+    color: #eeeff0;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+main section {
+    padding: 20px 20px;
+    margin: 0px 40px 20px 40px;
+}
+
+.card{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.card .container{
+    padding: 0.01em 16px;
+}
+.card .input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.card button{
+    background-color: #2A3132;
+    color: #eeeff0;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.card .border{
+    border: 1px solid #2A3132;
+}
+.card .header{
+    background-color: #763626;
+}
+.card .body{
+    background-color: #336B87;
+}
+.card{
+    color: #eeeff0;
+}
+
+.footer-background a{
+    color: #eeeff0;
+}
+.footer-background a:visited{
+    color: #90AFC5;
+}
+.footer-background a:hover{
+    color: #336B87;
+}

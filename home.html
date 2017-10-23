@@ -18,72 +18,160 @@
         </header>
     </div>
     <div class="column right content-header background fill">
-        <h2 class="center">Tales from battlefield</h2>
+        <section class="blog">
+            <h2 class="center">Tales from battlefield</h2>
+        </section>
+        <section class="skills">
+            <h2 class="center">Road to glory</h2>
+        </section>
+        <section class="about">
+            <h2 class="center">Humble introduction</h2>
+        </section>
+        <section class="contact">
+            <h2 class="center">Make your dreams come true</h2>
+        </section>
     </div>
 </div>
 <div class="row">
     <nav class="column left">
         <ul>
-            <li class="active">Blog</li>
-            <li>Skills</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li class="blog">Blog</li>
+            <li class="skills">Skills</li>
+            <li class="about">About</li>
+            <li class="contact">Contact</li>
         </ul>
     </nav>
     <main class="column right background">
-        <article>
-            <header>
-                <h2>Tale 1</h2>
-            </header>
-            <p>A long time ago, in a galaxy far, far away...</p>
-            <p> It is a period of civil war. Rebel
-                spaceships, striking from a hidden
-                base, have won their first victory
-                against the evil Galactic Empire.</p>
+        <section class="blog">
+            <article>
+                <header>
+                    <h2>Tale 1</h2>
+                </header>
+                <p>A long time ago, in a galaxy far, far away...</p>
+                <p> It is a period of civil war. Rebel
+                    spaceships, striking from a hidden
+                    base, have won their first victory
+                    against the evil Galactic Empire.</p>
+                <p>
+                    During the battle, Rebel spies managed
+                    to steal secret plans to the Empire's
+                    ultimate weapon, the Death Star, an
+                    armored space station with enough
+                    power to destroy an entire planet.
+                </p>
+                <p>
+                    Pursued by the Empire's sinister agents,
+                    Princess Leia races home aboard her
+                    starship, custodian of the stolen plans
+                    that can save her people and restore
+                    freedom to the galaxy.... </p>
+            </article>
+            <article>
+                <header>
+                    <h2>Tale 2</h2>
+                </header>
+                <p>A long time ago, in a galaxy far, far away...</p>
+                <p> It is a period of civil war. Rebel
+                    spaceships, striking from a hidden
+                    base, have won their first victory
+                    against the evil Galactic Empire.</p>
+                <p>
+                    During the battle, Rebel spies managed
+                    to steal secret plans to the Empire's
+                    ultimate weapon, the Death Star, an
+                    armored space station with enough
+                    power to destroy an entire planet.
+                </p>
+                <p>
+                    Pursued by the Empire's sinister agents,
+                    Princess Leia races home aboard her
+                    starship, custodian of the stolen plans
+                    that can save her people and restore
+                    freedom to the galaxy.... </p>
+            </article>
+        </section>
+        <section class="skills">
+            <table>
+                <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Level</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>.NET/C#</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>HTML/CSS/Javascript</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Docker</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Linux</td>
+                    <td>4</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section class="about">
             <p>
-                During the battle, Rebel spies managed
-                to steal secret plans to the Empire's
-                ultimate weapon, the Death Star, an
-                armored space station with enough
-                power to destroy an entire planet.
+                My name is Adrian Wawrzak. I'm a programmer. I work out of my home office in
+                Poznań, but this blog, its content and opinions are my
+                own. I blog about technology, culture, gadgets, code, the web, where we're going and where
+                we've been. I'm excited about community, media, entrepreneurship and above all, the open
+                web.
             </p>
-            <p>
-                Pursued by the Empire's sinister agents,
-                Princess Leia races home aboard her
-                starship, custodian of the stolen plans
-                that can save her people and restore
-                freedom to the galaxy.... </p>
-        </article>
-        <article>
-            <header>
-                <h2>Tale 2</h2>
-            </header>
-            <p>A long time ago, in a galaxy far, far away...</p>
-            <p> It is a period of civil war. Rebel
-                spaceships, striking from a hidden
-                base, have won their first victory
-                against the evil Galactic Empire.</p>
-            <p>
-                During the battle, Rebel spies managed
-                to steal secret plans to the Empire's
-                ultimate weapon, the Death Star, an
-                armored space station with enough
-                power to destroy an entire planet.
-            </p>
-            <p>
-                Pursued by the Empire's sinister agents,
-                Princess Leia races home aboard her
-                starship, custodian of the stolen plans
-                that can save her people and restore
-                freedom to the galaxy.... </p>
-        </article>
+        </section>
+        <section class="contact">
+            <div class="card">
+                <div class="container header">
+                    <h2>Contact me</h2>
+                </div>
+                <form class="container body" action="">
+                    <p>
+                        <label>Name</label>
+                        <input class="input border" name="name" type="text" required></p>
+                    <p>
+                        <label>E-mail address</label>
+                        <input class="input border" name="email" type="email" required></p>
+                    <p>
+                        <label>Telephone number</label>
+                        <input class="input border" name="telephone" type="tel" required>
+                    </p>
+                    <p>
+                        <label>Favourite number</label>
+                        <input class="input border" name="number" type="number" required>
+                    </p>
+                    <p>
+                        <label>Message</label>
+                        <textarea class="input border" rows="4" cols="50"></textarea>
+                    </p>
+                    <p>
+                        <button>Send</button>
+                        </p>
+                </form>
+            </div>
+        </section>
+
     </main>
 </div>
 <footer>
     <div class="footer-background">
-        <p>Posted by: Hege Refsnes</p>
-        <p>Contact information: <a href="mailto:someone@example.com">
-            someone@example.com</a>.</p>
+        <p>Adrian Wawrzak &copy; 2017</p>
+        <p><a href="http://enterprisecraftsmanship.com/">Enterprise Craftsmanship</a></p>
+        <p><a href="http://blog.ploeh.dk/">Ploeh</a></p>
+        <p><a href="http://www.pzielinski.com/">Piotr Zieliński</a></p>
+        <p><a href="https://lowleveldesign.org/">Low Level Design</a></p>
     </div>
 </footer>
 
